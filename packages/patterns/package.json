@@ -1,0 +1,22 @@
+{
+  "name": "@rien-ui/patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@repo/eslint": "workspace:*",
+    "@repo/typescript": "workspace:*",
+    "@types/react": "^18.3.3",
+    "eslint": "9.x",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
