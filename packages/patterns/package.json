@@ -4,19 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.mjs",
+    "create": "node scripts/createPattern.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "devDependencies": {
     "@repo/eslint": "workspace:*",
     "@repo/typescript": "workspace:*",
     "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "eslint": "9.x",
     "typescript": "^5.5.2"
-  },
-  "dependencies": {
-    "react": "^18.3.1"
   }
 }

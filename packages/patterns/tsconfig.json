@@ -1,0 +1,12 @@
+{
+  "extends": "@repo/typescript/tsconfig.lib.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "paths": {
+      "@rien-ui/react-compose-refs": ["./packages/react/compose-refs/src"],
+      "@rien-ui/react-plain": ["./packages/react/plain/src"],
+      "@rien-ui/react-slot": ["./packages/react/slot/src"]
+    }
+  }
+}
