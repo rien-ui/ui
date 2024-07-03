@@ -6,7 +6,8 @@
     "paths": {
       "@rien-ui/react-compose-refs": ["./packages/react/compose-refs/src"],
       "@rien-ui/react-plain": ["./packages/react/plain/src"],
-      "@rien-ui/react-slot": ["./packages/react/slot/src"]
+      "@rien-ui/react-slot": ["./packages/react/slot/src"],
+      "@rien-ui/react-context": ["./packages/react/context/src"]
     }
   }
 }
