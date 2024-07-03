@@ -88,9 +88,9 @@ const readmeContent = `# react-${name}
 ## Installation
 
 \`\`\`sh
-$ yarn add @radix-ui/react-primitive
+$ yarn add @rien-ui/react-primitive
 # or
-$ npm install @radix-ui/react-primitive
+$ npm install @rien-ui/react-primitive
 \`\`\`
 
 ## Usage

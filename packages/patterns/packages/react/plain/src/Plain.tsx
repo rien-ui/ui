@@ -58,7 +58,7 @@ const Plain = NODES.reduce((plain, node) => {
 
 /**
  * Flush custom event dispatch
- * https://github.com/radix-ui/primitives/pull/1378
+ * https://github.com/rien-ui/primitives/pull/1378
  *
  * React batches *all* event handlers since version 18, this introduces certain considerations when using custom event types.
  *
