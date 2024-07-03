@@ -37,7 +37,7 @@ interface CreateScope {
   (): ScopeHook;
 }
 
-function createContextScope(scopeName: string, createContextScopeDeps: CreateScope[]) {
+function createContextScope(scopeName: string, createContextScopeDeps: CreateScope[] = []) {
   let defaultContexts: any[] = [];
 
   /**
